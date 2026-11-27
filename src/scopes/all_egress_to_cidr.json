@@ -1,0 +1,14 @@
+{
+  "scope_id": "all_egress_to_cidr",
+  "description": "Detect egress from compute instances to the internet, excluding the approved range 55.3.0.0/16.",
+  "match": {
+    "direction": "egress",
+    "source": { "type": "instance", "value": "ALL" },
+    "destination": { "type": "internet" },
+    "ports": []
+  },
+  "exclude": {
+    "cidrs": ["55.3.0.0/16"],
+    "ports": []
+  }
+}

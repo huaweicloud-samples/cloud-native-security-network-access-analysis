@@ -1,0 +1,14 @@
+{
+  "scope_id": "all_vpc_egress_to_port",
+  "description": "Detect cross-VPC egress from vpc-a to vpc-b on ports other than 53 (DNS assumed allowed). Replace the REPLACE_*_ID placeholders with real VPC IDs.",
+  "match": {
+    "direction": "cross_vpc",
+    "source": { "type": "vpc", "value": "REPLACE_VPC_A_ID" },
+    "destination": { "type": "vpc", "value": "REPLACE_VPC_B_ID" },
+    "ports": []
+  },
+  "exclude": {
+    "cidrs": [],
+    "ports": [53]
+  }
+}

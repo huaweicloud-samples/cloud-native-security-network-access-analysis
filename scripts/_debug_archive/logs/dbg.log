@@ -1,0 +1,8 @@
+CreateSecurityGroupRequest: True
+CreateSecurityGroupRuleRequest: True
+CreateSecurityGroupRuleOption: True
+SG 63402bc2-0448-4240-a8c7-575ee5b81d60 Sys-default vpc_id= default
+   rule egress None proto= None port None - None remote= None rg= None
+   rule ingress None proto= None port None - None remote= None rg= 63402bc2-0448-4240-a8c7-575ee5b81d60
+   rule ingress None proto= None port None - None remote= None rg= 63402bc2-0448-4240-a8c7-575ee5b81d60
+   rule egress None proto= None port None - None remote= None rg= None

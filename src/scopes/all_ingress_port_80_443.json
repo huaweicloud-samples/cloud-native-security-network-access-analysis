@@ -1,0 +1,14 @@
+{
+  "scope_id": "all_ingress_port_80_443",
+  "description": "Detect inbound from the internet to instances on ports other than 80/443 (assumed allowed).",
+  "match": {
+    "direction": "ingress",
+    "source": { "type": "internet" },
+    "destination": { "type": "instance", "value": "ALL" },
+    "ports": []
+  },
+  "exclude": {
+    "cidrs": [],
+    "ports": [80, 443]
+  }
+}

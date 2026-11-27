@@ -1,0 +1,96 @@
+[*] Installing Huawei Cloud SDK (attempt 1/3, manylinux py39) ...
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')': /simple/huaweicloudsdkcore/
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')': /simple/huaweicloudsdkcore/
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')': /simple/huaweicloudsdkcore/
+WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')': /simple/huaweicloudsdkcore/
+WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')': /simple/huaweicloudsdkcore/
+Could not fetch URL https://pypi.org/simple/huaweicloudsdkcore/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/huaweicloudsdkcore/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)'))) - skipping
+ERROR: Could not find a version that satisfies the requirement huaweicloudsdkcore (from versions: none)
+
+[notice] A new release of pip is available: 26.1.2 -> 26.2.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+ERROR: No matching distribution found for huaweicloudsdkcore
+    pip failed (likely transient network error), retrying ...
+[*] Installing Huawei Cloud SDK (attempt 2/3, manylinux py39) ...
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')': /simple/huaweicloudsdkcore/
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')': /simple/huaweicloudsdkcore/
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')': /simple/huaweicloudsdkcore/
+WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')': /simple/huaweicloudsdkcore/
+WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')': /simple/huaweicloudsdkcore/
+Could not fetch URL https://pypi.org/simple/huaweicloudsdkcore/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/huaweicloudsdkcore/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)'))) - skipping
+ERROR: Could not find a version that satisfies the requirement huaweicloudsdkcore (from versions: none)
+
+[notice] A new release of pip is available: 26.1.2 -> 26.2.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+ERROR: No matching distribution found for huaweicloudsdkcore
+    pip failed (likely transient network error), retrying ...
+[*] Installing Huawei Cloud SDK (attempt 3/3, manylinux py39) ...
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None)': /simple/huaweicloudsdkcore/
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None)': /simple/huaweicloudsdkcore/
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None)': /simple/huaweicloudsdkcore/
+WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None)': /simple/huaweicloudsdkcore/
+WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None)': /simple/huaweicloudsdkcore/
+ERROR: Could not find a version that satisfies the requirement huaweicloudsdkcore (from versions: none)
+
+[notice] A new release of pip is available: 26.1.2 -> 26.2.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+ERROR: No matching distribution found for huaweicloudsdkcore
+    pip failed (likely transient network error), retrying ...
+Traceback (most recent call last):
+  File "D:\workbuddy\huaweicloud\aws-vpc-network-access-analyzer-automation\scripts\build_packages.py", line 142, in main
+    pip_install(sdk_dir)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "D:\workbuddy\huaweicloud\aws-vpc-network-access-analyzer-automation\scripts\build_packages.py", line 94, in pip_install
+    subprocess.run(
+    ~~~~~~~~~~~~~~^
+        [PYTHON, "-m", "pip", "install", "--target", target,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+         *PIP_PLATFORM_FLAGS, *SDK_PACKAGES],
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        check=True,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dgcd\.workbuddy\binaries\python\versions\3.13.12\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['C:\\Users\\dgcd\\.workbuddy\\binaries\\python\\versions\\3.13.12\\python.exe', '-m', 'pip', 'install', '--target', 'C:\\Users\\dgcd\\AppData\\Local\\Temp\\tmpj2nbk19q', '--platform', 'manylinux2014_x86_64', '--python-version', '39', '--only-binary=:all:', 'huaweicloudsdkcore', 'huaweicloudsdkvpc', 'huaweicloudsdksmn', 'huaweicloudsdksecmaster']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\workbuddy\huaweicloud\aws-vpc-network-access-analyzer-automation\scripts\build_packages.py", line 169, in <module>
+    main()
+    ~~~~^^
+  File "D:\workbuddy\huaweicloud\aws-vpc-network-access-analyzer-automation\scripts\build_packages.py", line 150, in main
+    raise RuntimeError("pip install failed after 3 attempts") from last_err
+RuntimeError: pip install failed after 3 attempts
+Traceback (most recent call last):
+  File "D:\workbuddy\huaweicloud\aws-vpc-network-access-analyzer-automation\scripts\build_packages.py", line 142, in main
+    pip_install(sdk_dir)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "D:\workbuddy\huaweicloud\aws-vpc-network-access-analyzer-automation\scripts\build_packages.py", line 94, in pip_install
+    subprocess.run(
+    ~~~~~~~~~~~~~~^
+        [PYTHON, "-m", "pip", "install", "--target", target,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+         *PIP_PLATFORM_FLAGS, *SDK_PACKAGES],
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        check=True,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dgcd\.workbuddy\binaries\python\versions\3.13.12\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['C:\\Users\\dgcd\\.workbuddy\\binaries\\python\\versions\\3.13.12\\python.exe', '-m', 'pip', 'install', '--target', 'C:\\Users\\dgcd\\AppData\\Local\\Temp\\tmpj2nbk19q', '--platform', 'manylinux2014_x86_64', '--python-version', '39', '--only-binary=:all:', 'huaweicloudsdkcore', 'huaweicloudsdkvpc', 'huaweicloudsdksmn', 'huaweicloudsdksecmaster']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\workbuddy\huaweicloud\aws-vpc-network-access-analyzer-automation\scripts\build_packages.py", line 169, in <module>
+    main()
+    ~~~~^^
+  File "D:\workbuddy\huaweicloud\aws-vpc-network-access-analyzer-automation\scripts\build_packages.py", line 150, in main
+    raise RuntimeError("pip install failed after 3 attempts") from last_err
+RuntimeError: pip install failed after 3 attempts

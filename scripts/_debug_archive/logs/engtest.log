@@ -1,0 +1,22 @@
+vpcs: ['4ae9889a-9b6a-4619-9b83-40e54eacb556', 'e0aff54e-8a07-4516-b203-ebd049034251']
+VPC_A present: True
+subnets of A: [('3420321c-f1fb-4b37-9561-18ca3725ec44', 'c89d4522-b850-4d96-90e4-3935bc7ca05c')]
+raw ports on net A: 3
+  port 1a5ebb7b-b999-4081-a848-6d77e4dfe110 name  sg []
+     fip subnet_id= c89d4522-b850-4d96-90e4-3935bc7ca05c ip= 192.168.10.62
+  port 893b1c8e-da21-4a3a-9c9d-0bc9198f053c name c89d4522-b850-4d96-90e4-3935bc7ca05c sg ['63402bc2-0448-4240-a8c7-575ee5b81d60']
+     fip subnet_id= c89d4522-b850-4d96-90e4-3935bc7ca05c ip= 192.168.10.1
+  port ce07af5a-affd-44ef-9458-677100767dbc name vpcaa-test-port-a sg ['63402bc2-0448-4240-a8c7-575ee5b81d60']
+     fip subnet_id= c89d4522-b850-4d96-90e4-3935bc7ca05c ip= 192.168.10.2
+topo.ports(SUB_A, VPC_A): 3
+  matched port 1a5ebb7b-b999-4081-a848-6d77e4dfe110 sg []
+  egress_open_ranges: []
+  ingress_open_ranges: []
+  matched port 893b1c8e-da21-4a3a-9c9d-0bc9198f053c sg ['63402bc2-0448-4240-a8c7-575ee5b81d60']
+  egress_open_ranges: [(0, 65535), (0, 65535)]
+  ingress_open_ranges: [(0, 65535), (0, 65535)]
+  matched port ce07af5a-affd-44ef-9458-677100767dbc sg ['63402bc2-0448-4240-a8c7-575ee5b81d60']
+  egress_open_ranges: [(0, 65535), (0, 65535)]
+  ingress_open_ranges: [(0, 65535), (0, 65535)]
+route_to_vpc(SUB_A, A, B): True
+routes of A: [('192.168.20.0/24', 'static', '215668bb-c6b8-4560-af22-4673d199d5e5')]
