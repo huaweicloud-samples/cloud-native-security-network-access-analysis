@@ -1,0 +1,23 @@
+== VPC A 192.168.10.0/24
+   reuse VPC vpcaa-test-a: e0aff54e-8a07-4516-b203-ebd049034251
+== VPC B 192.168.20.0/24
+   reuse VPC vpcaa-test-b: 4ae9889a-9b6a-4619-9b83-40e54eacb556
+== Subnet A
+   reuse Subnet vpcaa-test-subnet-a: 3420321c-f1fb-4b37-9561-18ca3725ec44
+== Subnet B
+   reuse Subnet vpcaa-test-subnet-b: 19347883-791d-48af-858c-c5e91294f519
+== default SG
+   SG: 63402bc2-0448-4240-a8c7-575ee5b81d60
+== Port in Subnet A
+   reuse Port vpcaa-test-port-a: ce07af5a-affd-44ef-9458-677100767dbc
+== Peering A->B
+   reuse peering vpcaa-test-peering: 215668bb-c6b8-4560-af22-4673d199d5e5
+== Route in VPC A -> 192.168.20.0/24
+   created route -> 192.168.20.0/24: 90d2ffc4-2de3-4b05-8367-9718f673a610
+
+=== RESULT ===
+VPC_A_ID=e0aff54e-8a07-4516-b203-ebd049034251
+VPC_B_ID=4ae9889a-9b6a-4619-9b83-40e54eacb556
+SUBNET_A_ID=3420321c-f1fb-4b37-9561-18ca3725ec44
+PORT_ID=ce07af5a-affd-44ef-9458-677100767dbc
+PEERING_ID=215668bb-c6b8-4560-af22-4673d199d5e5

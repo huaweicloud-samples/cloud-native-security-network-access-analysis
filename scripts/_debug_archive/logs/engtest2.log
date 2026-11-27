@@ -1,0 +1,5 @@
+cross_vpc findings: 2
+  DIR cross_vpc | SRC subnet 3420321c-f1fb-4b37-9561-18ca3725ec44 (vpc e0aff54e-8a07-4516-b203-ebd049034251) -> DST vpc 4ae9889a-9b6a-4619-9b83-40e54eacb556 | PORTS ['0-52', '54-65535']
+  detail: Subnet 3420321c-f1fb-4b37-9561-18ca3725ec44 in vpc e0aff54e-8a07-4516-b203-ebd049034251 has a route toward vpc 4ae9889a-9b6a-4619-9b83-40e54eacb556; egress allowed on ports ['0-52', '54-65535']
+  DIR cross_vpc | SRC subnet 3420321c-f1fb-4b37-9561-18ca3725ec44 (vpc e0aff54e-8a07-4516-b203-ebd049034251) -> DST vpc 4ae9889a-9b6a-4619-9b83-40e54eacb556 | PORTS ['0-52', '54-65535']
+  detail: Subnet 3420321c-f1fb-4b37-9561-18ca3725ec44 in vpc e0aff54e-8a07-4516-b203-ebd049034251 has a route toward vpc 4ae9889a-9b6a-4619-9b83-40e54eacb556; egress allowed on ports ['0-52', '54-65535']

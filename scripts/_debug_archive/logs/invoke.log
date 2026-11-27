@@ -1,0 +1,21 @@
+=== raw_content ===
+{
+    "errorMessage": "function entry exception, error: failed to import module 'app'(No module named 'defusedxml')",
+    "errorType": "ModuleNotFoundError",
+    "stackTrace": [
+        "File \"./app.py\", line 13, in <module>",
+        "  from src.engine.analyzer import analyze_all",
+        "File \"./src/engine/analyzer.py\", line 22, in <module>",
+        "  from .topology import Topology",
+        "File \"./src/engine/topology.py\", line 29, in <module>",
+        "  from huaweicloudsdkvpc.v2 import (  # noqa: F401  (v2 carries all list APIs)",
+        "File \"./huaweicloudsdkvpc/v2/__init__.py\", line 5, in <module>",
+        "  from huaweicloudsdkvpc.v2.vpc_client import VpcClient",
+        "File \"./huaweicloudsdkvpc/v2/vpc_client.py\", line 8, in <module>",
+        "  from huaweicloudsdkcore.client import Client, ClientBuilder",
+        "File \"./huaweicloudsdkcore/client.py\", line 62, in <module>",
+        "  from huaweicloudsdkcore.utils.xml_utils import XmlTransfer",
+        "File \"./huaweicloudsdkcore/utils/xml_utils.py\", line 24, in <module>",
+        "  from defusedxml.ElementTree import fromstring"
+    ]
+}
